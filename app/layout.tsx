@@ -10,7 +10,14 @@ export const metadata: Metadata = {
   description: "Sites, Perfil da Empresa no Google, gestão de redes sociais e design estratégico para empresas e prestadoras de serviço.",
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
-  icons: { icon: "/favicon.svg" },
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Agência de Marketing Digital em São Paulo | Bydo Marketing",
     description: "Estrutura digital para empresas e prestadoras de serviço serem encontradas, valorizadas e escolhidas.",
@@ -28,5 +35,18 @@ export const metadata: Metadata = {
   },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="pt-BR"><body className={manrope.variable}><JsonLd data={[organizationSchema, websiteSchema]} />{children}<FloatingActions /></body></html>;
+  return (
+    <html lang="pt-BR">
+      <head>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      </head>
+      <body className={manrope.variable}>
+        <JsonLd data={[organizationSchema, websiteSchema]} />
+        {children}
+        <FloatingActions />
+      </body>
+    </html>
+  );
 }
