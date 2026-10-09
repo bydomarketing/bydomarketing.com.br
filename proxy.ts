@@ -12,12 +12,25 @@ import type { NextRequest } from "next/server";
  */
 export function proxy(request: NextRequest) {
   const response = NextResponse.next();
-  response.headers.set("Content-Security-Policy", "base-uri 'self'; frame-ancestors 'self'; object-src 'none'");
-  response.headers.set("Cross-Origin-Opener-Policy", "same-origin");
+  const hostname = request.nextUrl.hostname;
+  const isPreviewOrDev =
+    hostname === "localhost" ||
+    hostname === "127.0.0.1" ||
+    hostname.includes("run.app") ||
+    hostname.includes("web.app");
+
   response.headers.set("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
   response.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
   response.headers.set("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
   response.headers.set("X-Content-Type-Options", "nosniff");
-  response.headers.set("X-Frame-Options", "SAMEORIGIN");
+
+  if (isPreviewOrDev) {
+    response.headers.set("Content-Security-Policy", "base-uri 'self'; object-src 'none'");
+  } else {
+    response.headers.set("Content-Security-Policy", "base-uri 'self'; frame-ancestors 'self'; object-src 'none'");
+    response.headers.set("Cross-Origin-Opener-Policy", "same-origin");
+    response.headers.set("X-Frame-Options", "SAMEORIGIN");
+  }
+
   return response;
 }

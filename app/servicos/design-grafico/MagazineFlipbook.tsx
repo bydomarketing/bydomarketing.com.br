@@ -46,11 +46,18 @@ export default function MagazineFlipbook({pages, alt, open, onClose}: FlipbookPr
   const [index, setIndex] = useState(0);
   const [flip, setFlip] = useState<null | {dir: 1 | -1}>(null);
   const animatingRef = useRef(false);
+  const [prevOpen, setPrevOpen] = useState(open);
+
+  if (prevOpen !== open) {
+    setPrevOpen(open);
+    if (open) {
+      setIndex(0);
+      setFlip(null);
+    }
+  }
 
   useEffect(() => {
     if (!open) return;
-    setIndex(0);
-    setFlip(null);
     animatingRef.current = false;
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
@@ -94,8 +101,14 @@ export default function MagazineFlipbook({pages, alt, open, onClose}: FlipbookPr
   const isLastView = index === views.length - 1 && !flip;
 
   return (
-    <div className="revistaflip-overlay" role="dialog" aria-modal="true" aria-label={alt} onClick={onClose}>
-      <div className="revistaflip-modal" onClick={event => event.stopPropagation()}>
+    <div className="revistaflip-overlay" role="dialog" aria-modal="true" aria-label={alt}>
+      <button
+        type="button"
+        aria-label="Fechar revista"
+        onClick={onClose}
+        style={{ position: "absolute", inset: 0, border: "none", background: "transparent", cursor: "default" }}
+      />
+      <div className="revistaflip-modal">
         <button type="button" className="revistaflip-close" onClick={onClose} aria-label="Fechar revista">×</button>
 
         <div className={`revistaflip-stage${isSpread ? " revistaflip-stage-spread" : ""}`}>

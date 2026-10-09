@@ -389,6 +389,257 @@ export const articles: readonly BlogArticle[] = [
       href: "/servicos/sites-e-landing-pages",
     },
   },
+  {
+    slug: "o-que-precisa-ser-planejado-na-gestao-de-redes-sociais-para-negocios-locais",
+    title: "O que precisa ser planejado na gestão de redes sociais para negócios locais",
+    description: "Planejamento, linha editorial, calendário e acompanhamento trabalham juntos para manter uma comunicação coerente com o negócio.",
+    category: "Redes sociais",
+    publishedAt: "2026-09-26",
+    readingTime: "4 min de leitura",
+    image: "/social/social-01.webp",
+    imageAlt: "Planejamento estratégico de redes sociais para empresas e negócios locais",
+    introduction: "Muitos donos de negócios locais acreditam que gerir redes sociais se resume a abrir um aplicativo de design, escolher um modelo pronto, colocar uma frase motivacional e esperar que os clientes apareçam na porta da empresa. Na prática, redes sociais para negócios locais exigem uma função clara: mostrar que a empresa está ativa, organizada, pronta para atender e plenamente confiável para quem mora ou trabalha na mesma região.",
+    sections: [
+      {
+        heading: "O objetivo de um perfil local é diferente de um perfil de entretenimento",
+        paragraphs: [
+          "Um negócio local não precisa de centenas de milhares de seguidores espalhados pelo país para ter sucesso. O que ele realmente precisa é de conexão qualificada com as pessoas da sua cidade e do seu bairro, clientes potenciais que realmente podem visitar o estabelecimento, agendar um horário ou pedir um orçamento.",
+          "Quando o perfil foca em atrair curtidas vazias com tendências que nada têm a ver com o serviço prestado, ele pode até ter números inflados, mas o faturamento no balcão continua inalterado.",
+        ],
+      },
+      {
+        heading: "Linha editorial conectada à rotina e aos serviços reais",
+        paragraphs: [
+          "O conteúdo que mais gera confiança e converte vendas é aquele que mostra o dia a dia real: os serviços sendo executados com cuidado, o ambiente limpo e preparado, a equipe atendendo com atenção, os bastidores de entrega e as respostas claras para as dúvidas mais comuns dos clientes.",
+          "Cada publicação deve responder a funções estratégicas: **apresentar** o que a empresa faz, **provar** que ela entrega com qualidade, **reduzir objeções** de quem tem receio de contratar e **facilitar** o caminho direto até o WhatsApp.",
+        ],
+      },
+      {
+        heading: "Constância sustentável em vez de postagens diárias sem critério",
+        paragraphs: [
+          "Um dos maiores erros cometidos por quem tenta fazer tudo sozinho é começar empolgado, postando duas vezes por dia, e abandonar o perfil após três semanas por pura exaustão. Para o público e para os algoritmos, três publicações semanais bem planejadas, com design alinhado e copy intencional, trazem muito mais retorno do que um bombardeio diário de conteúdos improvisados.",
+          "O planejamento permite organizar o calendário com antecedência, garantindo que o perfil continue ativo mesmo quando a semana do empresário estiver tomada por atendimentos e demandas operacionais.",
+        ],
+      },
+      {
+        heading: "Design profissional que reforça a credibilidade da marca",
+        paragraphs: [
+          "A apresentação visual das redes sociais é a vitrine digital da sua loja ou consultório. Se as artes usam fontes ilegíveis, cores desalinhadas e fotos de baixa qualidade, o cliente subconscientemente deduz que o serviço da empresa também pode ser descuidado.",
+          "Quando o feed mantém harmonia visual, tipografia consistente e fotos de alta resolução, o negócio transmite solidez imediata, permitindo cobrar o valor justo sem ser comparado apenas pelo preço mais baixo.",
+        ],
+      },
+      {
+        heading: "O papel do acompanhamento e a ponte para o fechamento",
+        paragraphs: [
+          "A gestão de redes sociais não termina no botão de publicar. É preciso acompanhar quais temas despertaram mais interesse, quais formatos geraram mais mensagens diretas e manter os links da biografia e as chamadas para ação sempre claros e acessíveis para direcionar o visitante direto para a conversa comercial no WhatsApp.",
+        ],
+      },
+    ],
+    relatedService: {
+      label: "Gestão de Redes Sociais",
+      href: "/servicos/gestao-de-redes-sociais",
+    },
+  },
+  {
+    slug: "seu-negocio-precisa-aparecer-todos-os-dias-nas-redes-sociais",
+    title: "Seu negócio precisa aparecer todos os dias nas redes sociais?",
+    description: "Uma análise sobre frequência, participação do cliente e escolhas de conteúdo que respeitam a rotina de cada empresa.",
+    category: "Posicionamento",
+    publishedAt: "2026-09-26",
+    readingTime: "4 min de leitura",
+    image: "/portfolio/redes-duas-fachadas.webp",
+    imageAlt: "Presença digital estratégica e frequência de postagens nas redes sociais",
+    introduction: "Existe uma pressão constante no mercado digital dizendo que, se você não postar três reels por dia, quinze stories e dois carrosséis, sua empresa vai se tornar invisível e perder todos os clientes para a concorrência. Para quem precisa gerenciar equipe, emitir notas fiscais, atender clientes e garantir a qualidade do serviço, essa cobrança gera uma sensação paralisante de culpa. Mas será que essa obrigação diária é realmente necessária para vender?",
+    sections: [
+      {
+        heading: "Presença ativa não significa presença desesperada",
+        paragraphs: [
+          "A primeira distinção que precisa ser feita é entre ser um criador de conteúdo e ser uma empresa que usa as redes sociais como canal comercial. O influenciador vive de visualizações de anúncios e precisa manter as pessoas presas na tela o dia todo. A sua empresa vive de vender serviços e soluções bem executadas para clientes reais.",
+          "Para uma clínica, um escritório de engenharia ou uma prestadora de serviços, o que importa não é a quantidade bruta de postagens, mas sim o que a pessoa encontra quando visita o seu perfil pela primeira vez.",
+        ],
+      },
+      {
+        heading: "Feed como portfólio permanente e stories como rotina pontual",
+        paragraphs: [
+          "As publicações no feed devem funcionar como um **portfólio permanente**: elas explicam seus diferenciais, mostram resultados consolidados, apresentam a história e os valores da empresa e permanecem lá para quem chegar hoje, mês que vem ou daqui a um ano.",
+          "Já os stories cumprem o papel de proximidade e imediatismo, registrando pequenos momentos da rotina sem a necessidade de uma superprodução. Separar essas duas funções alivia a pressão e organiza o tempo.",
+        ],
+      },
+      {
+        heading: "O perigo do conteúdo publicado apenas para cumprir tabela",
+        paragraphs: [
+          "Quando uma empresa se obriga a postar todos os dias sem planejamento, a qualidade do conteúdo despenca inevitavelmente. Postagens genéricas, frases batidas e artes feitas às pressas comunicam amadorismo e desgastam a imagem da marca, fazendo mais mal do que bem.",
+          "É muito mais estratégico publicar três conteúdos densos, bem acabados e com argumentos convincentes por semana do que sete publicações vazias que ninguém tem interesse em ler.",
+        ],
+      },
+      {
+        heading: "Constância é sustentabilidade no longo prazo",
+        paragraphs: [
+          "O algoritmo do Instagram e a atenção do público valorizam a **previsibilidade**. Um ritmo de postagens que você consegue manter por 12 meses consecutivos constrói autoridade de verdade, ao contrário de um ritmo frenético de duas semanas seguido por dois meses de silêncio absoluto.",
+        ],
+      },
+      {
+        heading: "Como a gestão profissional devolve o seu foco para o negócio",
+        paragraphs: [
+          "A Bydo conduz a gestão de redes sociais justamente respeitando a realidade de cada cliente: assumindo o planejamento de pautas, o design das artes, a redação das legendas e a programação das postagens. Assim, o empresário só precisa fornecer insumos básicos e focar naquilo que sabe fazer de melhor: atender com excelência quem já confiou na sua empresa.",
+        ],
+      },
+    ],
+    relatedService: {
+      label: "Gestão de Redes Sociais",
+      href: "/servicos/gestao-de-redes-sociais",
+    },
+  },
+  {
+    slug: "como-o-design-grafico-influencia-a-percepcao-de-valor-de-uma-empresa",
+    title: "Como o design gráfico influencia a percepção de valor de uma empresa",
+    description: "A organização visual ajuda o público a reconhecer a marca, compreender sua proposta e perceber mais profissionalismo em cada contato.",
+    category: "Design gráfico",
+    publishedAt: "2026-09-26",
+    readingTime: "5 min de leitura",
+    image: "/portfolio/identidade-dr-bruno.webp",
+    imageAlt: "Projeto de identidade visual e design gráfico para posicionamento de alto valor",
+    introduction: "Pense em duas propostas comerciais que chegam para você contratar o mesmo tipo de serviço. A primeira vem como um texto desformatado no WhatsApp, com erros de digitação e uma logo borrada em baixa resolução. A segunda chega como um PDF impecável, com tipografia elegante, hierarquia visual clara, fotos nítidas do trabalho e cores bem equilibradas. Antes mesmo de olhar a linha do preço, o seu cérebro já determinou qual dessas empresas é mais competente e em qual delas você confia mais.",
+    sections: [
+      {
+        heading: "O julgamento visual acontece em frações de segundo",
+        paragraphs: [
+          "O ser humano é altamente visual, e a primeira impressão sobre uma marca é formada em menos de um segundo. O design gráfico não é apenas uma questão de estética; é a linguagem visual que organiza a informação, direciona o olhar e comunica os padrões de qualidade e seriedade da empresa.",
+          "Elementos visuais desalinhados, poluição gráfica e falta de padrão criam ruído e transmitem a sensação de um negócio improvisado, enquanto um acabamento profissional gera segurança instantânea.",
+        ],
+      },
+      {
+        heading: "A identidade visual como alavanca silenciosa de preço",
+        paragraphs: [
+          "Existe uma relação direta entre o design de uma empresa e o quanto o mercado aceita pagar pelo seu serviço. Quando a percepção de valor é baixa, o cliente questiona qualquer orçamento e tenta negociar descontos porque enxerga o serviço como uma commodity.",
+          "Por outro lado, quando toda a comunicação visual da empresa reflete sofisticação e cuidado, o cliente entende naturalmente que está contratando um serviço de primeira linha e aceita pagar o valor justo por essa segurança.",
+        ],
+      },
+      {
+        heading: "Consistência em todos os pontos de contato",
+        paragraphs: [
+          "Uma marca forte não é aquela que tem apenas um logotipo bonito no cartão de visitas, mas sim aquela que mantém a **mesma coerência** em todas as suas manifestações: nas artes das redes sociais, nos uniformes, nas apresentações em PDF, nos contratos, no site e nas embalagens.",
+          "Essa repetição visual coerente fixa a marca na memória do público e facilita o reconhecimento imediato, diferenciando a empresa dos concorrentes que trocam de estilo a cada semana.",
+        ],
+      },
+      {
+        heading: "Clareza que facilita a tomada de decisão",
+        paragraphs: [
+          "O bom design tem uma função prática indispensável: tornar assuntos complexos fáceis de compreender. Gráficos bem elaborados, tabelas limpas e tópicos organizados ajudam o potencial cliente a entender exatamente o que está incluído no serviço, quais são os prazos e como funcionam as etapas de entrega, eliminando dúvidas que poderiam travar o fechamento da proposta.",
+        ],
+      },
+      {
+        heading: "Investir na apresentação é investir no próprio faturamento",
+        paragraphs: [
+          "Empresas que investem em design estratégico não gastam dinheiro com cosmética supérflua; elas fortalecem seus ativos comerciais. Na Bydo, desenvolvemos identidades visuais e materiais gráficos que valorizam a reputação de quem já presta um ótimo serviço, garantindo que a qualidade percebida pelo cliente corresponda à qualidade real do trabalho entregue.",
+        ],
+      },
+    ],
+    relatedService: {
+      label: "Design Gráfico para Empresas",
+      href: "/servicos/design-grafico",
+    },
+  },
+  {
+    slug: "quais-materiais-ajudam-prestadores-de-servico-a-apresentar-melhor-o-proprio-trabalho",
+    title: "Quais materiais ajudam prestadores de serviço a apresentar melhor o próprio trabalho",
+    description: "Portfólios, apresentações e revistas digitais tornam serviços, diferenciais e resultados mais fáceis de entender e compartilhar.",
+    category: "Materiais de divulgação",
+    publishedAt: "2026-09-26",
+    readingTime: "4 min de leitura",
+    image: "/portfolio/revista-dra-leticia.webp",
+    imageAlt: "Revista digital e portfólio interativo para prestadores de serviço",
+    introduction: "Quem vende um produto físico tem a vantagem de colocá-lo na mão do cliente: a pessoa toca, experimenta e avalia na hora. Quem presta serviços — seja em saúde, arquitetura, consultoria, engenharia ou estética — vende algo intangível, vende uma promessa de resultado. Por isso, os materiais de apresentação e divulgação são tão fundamentais: eles dão corpo, peso e materialidade àquilo que você faz.",
+    sections: [
+      {
+        heading: "Apresentações comerciais e propostas em PDF profissional",
+        paragraphs: [
+          "Enviar uma proposta digitada diretamente na mensagem do WhatsApp é um dos hábitos que mais desvalorizam o trabalho de um especialista. Uma proposta comercial estruturada em PDF, com capa personalizada, escopo bem definido, cronograma e termos de contratação, transforma uma simples negociação em um documento formal e respeitado.",
+          "O cliente percebe que está lidando com uma empresa sólida, o que diminui objeções e agiliza a aprovação do orçamento.",
+        ],
+      },
+      {
+        heading: "Revistas digitais e portfólios editoriais para WhatsApp",
+        paragraphs: [
+          "Um dos materiais de maior impacto criados pela Bydo é a **revista portfólio digital**. Trata-se de uma publicação moderna e interativa, diagramada no formato ideal para leitura no smartphone, que reúne a história do profissional, fotos de alta qualidade, explicação dos tratamentos ou serviços e depoimentos de clientes satisfeitos.",
+          "Ela pode ser enviada facilmente com um clique pelo WhatsApp toda vez que um novo contato pergunta \"como funciona o seu trabalho?\", gerando um impacto muito superior a um texto longo e cansativo.",
+        ],
+      },
+      {
+        heading: "Cartões digitais interativos e catálogo de links",
+        paragraphs: [
+          "Em vez de enviar vários links soltos, um cartão digital interativo reúne em um único lugar o link direto para o WhatsApp, localização no Google Maps, catálogo de serviços, chave Pix e links das redes sociais. Isso facilita a navegação do cliente e elimina barreiras no primeiro contato.",
+        ],
+      },
+      {
+        heading: "Materiais impressos de alto padrão para atendimento presencial",
+        paragraphs: [
+          "Para profissionais que contam com espaço físico ou consultório, materiais impressos como pastas de entrega de documentos, receituários elegantes, cartões de visita com acabamento especial e folhetos explicativos sobre pós-atendimento completam a experiência com uma sensação tangível de exclusividade.",
+        ],
+      },
+      {
+        heading: "Apresentar bem é a chave para ser escolhido",
+        paragraphs: [
+          "Ter competência técnica é a obrigação de qualquer profissional sério; mas saber embalar e comunicar essa competência é o que define quem consegue atrair os melhores clientes e cobrar honorários justos. Os materiais visuais certos garantem que a primeira impressão seja exatamente aquela que você deseja causar.",
+        ],
+      },
+    ],
+    relatedService: {
+      label: "Design Gráfico para Empresas",
+      href: "/servicos/design-grafico",
+    },
+  },
+  {
+    slug: "como-organizar-google-site-e-redes-sociais-para-transmitir-a-mesma-confianca",
+    title: "Como organizar Google, site e redes sociais para transmitir a mesma confiança",
+    description: "Descubra como uma mensagem coerente em diferentes canais reduz dúvidas e ajuda o cliente a avançar com mais segurança.",
+    category: "Estratégia digital",
+    publishedAt: "2026-09-26",
+    readingTime: "5 min de leitura",
+    image: "/portfolio/fachada-digital-bydo.webp",
+    imageAlt: "Integração estratégica entre Google, site institucional e redes sociais",
+    introduction: "Observe o seu próprio comportamento quando precisa contratar um serviço importante hoje em dia. Você pode ver uma publicação interessante no Instagram, mas antes de mandar uma mensagem, o que você faz? Abre o Google, pesquisa o nome da empresa, confere as avaliações no mapa e entra no site para checar se as informações são verdadeiras. Se em um canal o telefone for um, no outro for outro, e no site a empresa parecer abandonada, a dúvida aparece imediatamente e você desiste.",
+    sections: [
+      {
+        heading: "As três portas de entrada do ecossistema digital",
+        paragraphs: [
+          "Cada canal cumpre um papel insubstituível na jornada de decisão do cliente:",
+          "O **Perfil da Empresa no Google** atende a intenção imediata de quem já está procurando pela solução na região (\"quem resolve isso perto de mim agora?\"); o **Site Institucional** é a autoridade máxima, a casa própria que organiza todas as informações, detalhes de serviços e garantias oficiais; e as **Redes Sociais** mostram a rotina, a humanidade e a prova de que a empresa está ativa e conectada ao seu público.",
+        ],
+      },
+      {
+        heading: "A consistência das informações básicas (NAP: Nome, Endereço e Telefone)",
+        paragraphs: [
+          "Para o Google e para o consumidor, inconsistências cadastrais são sinais de alerta. O nome da empresa, o endereço completo, o telefone e o horário de funcionamento devem estar rigorosamente idênticos em todos os lugares.",
+          "Quando o Google cruza os dados do perfil com o rodapé do seu site e as informações do perfil do Instagram e encontra perfeita sincronia, o algoritmo aumenta a pontuação de confiança na sua empresa, o que contribui diretamente para melhores posições no mapa local.",
+        ],
+      },
+      {
+        heading: "Unidade visual que fortalece a lembrança de marca",
+        paragraphs: [
+          "A identidade visual não pode ser diferente a cada canal. O logotipo, a paleta de cores, as tipografias e o estilo de fotos devem seguir o mesmo padrão estético tanto na capa do Google Meu Negócio quanto nos posts do Instagram e nas páginas do seu site.",
+          "Essa coesão cria familiaridade instantânea: quando o cliente pula do anúncio para o perfil e depois para a landing page, ele tem a certeza de que está no lugar certo.",
+        ],
+      },
+      {
+        heading: "Caminhos claros que levam ao fechamento no WhatsApp",
+        paragraphs: [
+          "Os três canais precisam ter rotas de conversão fluidas. No Google, o botão de ligar e a rota no Maps devem estar ativos; no site, os botões flutuantes de WhatsApp devem acompanhar a leitura em todas as páginas; e nas redes sociais, o link da bio deve levar direto para a conversa comercial.",
+          "Quando todos os canais trabalham juntos para conduzir o cliente até o mesmo ponto de contato, a taxa de conversão aumenta consideravelmente.",
+        ],
+      },
+      {
+        heading: "A estrutura integrada que a Bydo desenvolve",
+        paragraphs: [
+          "Na Bydo Marketing, não tratamos o site, o Google e as redes sociais como ilhas isoladas. Construímos uma estrutura digital integrada onde cada ponto de contato reforça o outro, garantindo que onde quer que o cliente encontre a sua empresa, ele sinta a mesma segurança para dar o próximo passo.",
+        ],
+      },
+    ],
+    relatedService: {
+      label: "Sites e Landing Pages",
+      href: "/servicos/sites-e-landing-pages",
+    },
+  },
 ];
 
 export function findArticle(slug: string) {

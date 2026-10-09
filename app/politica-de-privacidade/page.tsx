@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 import { Footer, Header } from "../components/site-shell";
 import { JsonLd, breadcrumbSchema, pageMetadata } from "../seo";
@@ -16,7 +17,7 @@ export default function Page() {
     <main className="articlelp">
       <article>
         <div className="articlelp-hero">
-          <a href="/">← Voltar para a home</a>
+          <Link href="/">← Voltar para a home</Link>
           <span>Bydo Marketing</span>
           <h1>Política de Privacidade e Cookies</h1>
           <p>Este documento explica de forma simples quais informações o nosso site coleta, para que elas servem e como você pode falar com a gente sobre isso a qualquer momento.</p>
