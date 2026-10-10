@@ -398,40 +398,36 @@ export const articles: readonly BlogArticle[] = [
     readingTime: "4 min de leitura",
     image: "/social/social-01.webp",
     imageAlt: "Planejamento estratégico de redes sociais para empresas e negócios locais",
-    introduction: "Muitos donos de negócios locais acreditam que gerir redes sociais se resume a abrir um aplicativo de design, escolher um modelo pronto, colocar uma frase motivacional e esperar que os clientes apareçam na porta da empresa. Na prática, redes sociais para negócios locais exigem uma função clara: mostrar que a empresa está ativa, organizada, pronta para atender e plenamente confiável para quem mora ou trabalha na mesma região.",
+    introduction: "Toda empresa que decide estar presente nas redes sociais chega, cedo ou tarde, numa pergunta incômoda, que é o que exatamente postar essa semana. Quando essa decisão fica pra última hora, o feed vira um mosaico de ideias soltas, repetidas ou sem relação nenhuma com o que o negócio realmente quer comunicar, e é justamente aí que a presença digital perde força mesmo com publicações constantes. A diferença entre um perfil que constrói percepção de valor ao longo do tempo e um perfil que só ocupa espaço está na forma como o conteúdo é planejado antes de ser produzido.",
     sections: [
       {
-        heading: "O objetivo de um perfil local é diferente de um perfil de entretenimento",
+        heading: "Por que postar sem planejamento não sustenta resultado",
         paragraphs: [
-          "Um negócio local não precisa de centenas de milhares de seguidores espalhados pelo país para ter sucesso. O que ele realmente precisa é de conexão qualificada com as pessoas da sua cidade e do seu bairro, clientes potenciais que realmente podem visitar o estabelecimento, agendar um horário ou pedir um orçamento.",
-          "Quando o perfil foca em atrair curtidas vazias com tendências que nada têm a ver com o serviço prestado, ele pode até ter números inflados, mas o faturamento no balcão continua inalterado.",
+          "Publicar com frequência parece, à primeira vista, sinônimo de estar presente, mas sem um fio condutor por trás de cada post, a comunicação acaba fragmentada, porque cada publicação nasce isolada, respondendo apenas ao que pareceu uma boa ideia naquele momento, sem se conectar com a anterior nem preparar a próxima. Esse tipo de produção consome tempo e energia da empresa, porém raramente constrói a percepção de autoridade que normalmente é o verdadeiro objetivo por trás de manter um perfil ativo.",
         ],
       },
       {
-        heading: "Linha editorial conectada à rotina e aos serviços reais",
+        heading: "Linha editorial, o ponto de partida de tudo",
         paragraphs: [
-          "O conteúdo que mais gera confiança e converte vendas é aquele que mostra o dia a dia real: os serviços sendo executados com cuidado, o ambiente limpo e preparado, a equipe atendendo com atenção, os bastidores de entrega e as respostas claras para as dúvidas mais comuns dos clientes.",
-          "Cada publicação deve responder a funções estratégicas: **apresentar** o que a empresa faz, **provar** que ela entrega com qualidade, **reduzir objeções** de quem tem receio de contratar e **facilitar** o caminho direto até o WhatsApp.",
+          "A linha editorial funciona como a espinha dorsal da comunicação, porque define quais temas o perfil vai abordar, qual tom de voz vai usar e que tipo de conteúdo tem prioridade diante de outro, de modo que cada post deixa de nascer do nada e passa a responder a uma lógica maior que já foi pensada com antecedência. Sem essa definição, o negócio tende a variar demais entre conteúdo institucional, promocional e educativo sem critério algum, o que confunde quem acompanha o perfil e dificulta que a audiência reconheça rapidamente do que se trata aquele negócio.",
         ],
       },
       {
-        heading: "Constância sustentável em vez de postagens diárias sem critério",
+        heading: "Calendário de conteúdo, o que torna o planejamento possível de executar",
         paragraphs: [
-          "Um dos maiores erros cometidos por quem tenta fazer tudo sozinho é começar empolgado, postando duas vezes por dia, e abandonar o perfil após três semanas por pura exaustão. Para o público e para os algoritmos, três publicações semanais bem planejadas, com design alinhado e copy intencional, trazem muito mais retorno do que um bombardeio diário de conteúdos improvisados.",
-          "O planejamento permite organizar o calendário com antecedência, garantindo que o perfil continue ativo mesmo quando a semana do empresário estiver tomada por atendimentos e demandas operacionais.",
+          "Depois que a linha editorial está definida, o calendário organiza quando e com que frequência cada tema vai aparecer, considerando datas importantes do negócio, lançamentos, sazonalidade e a rotina real de quem vai produzir e aprovar o conteúdo. Um calendário bem construído evita tanto o excesso de publicações em uma semana e o silêncio total na seguinte quanto a repetição involuntária do mesmo assunto em sequência, porque antecipa decisões que, sem esse mapa, acabariam sendo tomadas às pressas.",
         ],
       },
       {
-        heading: "Design profissional que reforça a credibilidade da marca",
+        heading: "Acompanhamento, a etapa que a maioria dos negócios pula",
         paragraphs: [
-          "A apresentação visual das redes sociais é a vitrine digital da sua loja ou consultório. Se as artes usam fontes ilegíveis, cores desalinhadas e fotos de baixa qualidade, o cliente subconscientemente deduz que o serviço da empresa também pode ser descuidado.",
-          "Quando o feed mantém harmonia visual, tipografia consistente e fotos de alta resolução, o negócio transmite solidez imediata, permitindo cobrar o valor justo sem ser comparado apenas pelo preço mais baixo.",
+          "Planejar e publicar resolve só parte do trabalho, porque sem acompanhar o que está funcionando, a empresa continua produzindo conteúdo no escuro, sem saber se aquele formato gera mais alcance, se aquele tema aproxima o público ou se o horário escolhido realmente entrega o post pra quem importa. Acompanhar métricas como alcance, salvamentos, compartilhamentos e cliques pro contato permite ajustar a linha editorial ao longo do tempo, trocando o que não funciona por aquilo que já mostrou resultado.",
         ],
       },
       {
-        heading: "O papel do acompanhamento e a ponte para o fechamento",
+        heading: "Por que vale ter alguém cuidando disso toda semana",
         paragraphs: [
-          "A gestão de redes sociais não termina no botão de publicar. É preciso acompanhar quais temas despertaram mais interesse, quais formatos geraram mais mensagens diretas e manter os links da biografia e as chamadas para ação sempre claros e acessíveis para direcionar o visitante direto para a conversa comercial no WhatsApp.",
+          "Sustentar esse processo completo, que envolve linha editorial, calendário, produção e acompanhamento, exige uma rotina que a maioria das donas de negócio não tem tempo de manter junto com a operação do próprio trabalho, porque além de pensar o conteúdo é preciso produzir, agendar, revisar resultados e ajustar o que não está funcionando, semana após semana. É por isso que a gestão de redes sociais faz sentido como um serviço contínuo, e não como uma tarefa esporádica, já que a consistência é justamente o que transforma presença em percepção de valor ao longo do tempo. Na Bydo, esse processo é conduzido de forma estruturada, com planejamento editorial, calendário organizado e acompanhamento constante dos resultados, para que a comunicação do negócio continue coerente mesmo quando a rotina do dia a dia fica corrida.",
         ],
       },
     ],
@@ -499,44 +495,53 @@ export const articles: readonly BlogArticle[] = [
     readingTime: "5 min de leitura",
     image: "/portfolio/identidade-dr-bruno.webp",
     imageAlt: "Projeto de identidade visual e design gráfico para posicionamento de alto valor",
-    introduction: "Pense em duas propostas comerciais que chegam para você contratar o mesmo tipo de serviço. A primeira vem como um texto desformatado no WhatsApp, com erros de digitação e uma logo borrada em baixa resolução. A segunda chega como um PDF impecável, com tipografia elegante, hierarquia visual clara, fotos nítidas do trabalho e cores bem equilibradas. Antes mesmo de olhar a linha do preço, o seu cérebro já determinou qual dessas empresas é mais competente e em qual delas você confia mais.",
+    introduction: "Duas empresas podem prestar exatamente o mesmo nível de serviço e ainda assim serem percebidas de formas completamente diferentes pelo cliente, porque boa parte dessa diferença nasce antes mesmo da primeira conversa, no instante em que a pessoa vê um orçamento, folheia um portfólio ou passa o olho por um post no feed. O design gráfico funciona justamente nesse ponto de entrada, formando a primeira impressão sobre a empresa antes que qualquer explicação sobre o serviço seja dada, e é por isso que negócios que investem em identidade visual profissional costumam transmitir mais confiança do que negócios parecidos, do mesmo porte e com a mesma qualidade de entrega, mas sem esse cuidado.",
     sections: [
       {
-        heading: "O julgamento visual acontece em frações de segundo",
+        heading: "A primeira impressão acontece antes da primeira palavra",
         paragraphs: [
-          "O ser humano é altamente visual, e a primeira impressão sobre uma marca é formada em menos de um segundo. O design gráfico não é apenas uma questão de estética; é a linguagem visual que organiza a informação, direciona o olhar e comunica os padrões de qualidade e seriedade da empresa.",
-          "Elementos visuais desalinhados, poluição gráfica e falta de padrão criam ruído e transmitem a sensação de um negócio improvisado, enquanto um acabamento profissional gera segurança instantânea.",
+          "Antes de ouvir qualquer argumento sobre o serviço, o cliente já formou uma opinião só de olhar para o material que recebeu, porque o cérebro humano processa imagem muito mais rápido do que processa texto, de modo que essa leitura visual inicial acaba decidindo o nível de confiança com que a conversa vai começar.",
+          "Um orçamento bem diagramado, um portfólio organizado com identidade aplicada ou uma apresentação comercial com padrão visual coerente comunicam profissionalismo antes mesmo de qualquer palavra ser lida, enquanto um material improvisado, sem organização gráfica nenhuma, faz o cliente desconfiar da entrega, mesmo sem conseguir explicar exatamente o motivo dessa desconfiança. É um julgamento quase instantâneo, que acontece em segundos e que raramente é revertido só com uma boa conversa depois.",
         ],
       },
       {
-        heading: "A identidade visual como alavanca silenciosa de preço",
+        heading: "A organização visual vai muito além de ter um logotipo bonito",
         paragraphs: [
-          "Existe uma relação direta entre o design de uma empresa e o quanto o mercado aceita pagar pelo seu serviço. Quando a percepção de valor é baixa, o cliente questiona qualquer orçamento e tenta negociar descontos porque enxerga o serviço como uma commodity.",
-          "Por outro lado, quando toda a comunicação visual da empresa reflete sofisticação e cuidado, o cliente entende naturalmente que está contratando um serviço de primeira linha e aceita pagar o valor justo por essa segurança.",
+          "A organização visual de um negócio vai muito além de ter um logotipo bonito guardado na pasta de arquivos. O que realmente constrói percepção de valor é a aplicação consistente desse logotipo, das cores da marca e da tipografia escolhida em todos os pontos de contato que o cliente tem com a empresa, do post publicado no Instagram ao orçamento enviado por e-mail, passando pelas apresentações comerciais, pelos portfólios de trabalhos realizados e por qualquer material impresso ou digital que carregue o nome do negócio.",
+          "Quando cada um desses materiais parece ter sido produzido por uma pessoa diferente, sem nenhum padrão em comum entre eles, a marca perde força visual e o cliente sente, mesmo sem saber nomear, que aquele negócio ainda não organizou sua própria comunicação, o que é justamente o papel que uma identidade visual bem estruturada cumpre.",
         ],
       },
       {
-        heading: "Consistência em todos os pontos de contato",
+        heading: "Por que o profissionalismo visual pesa mais em serviços de ticket mais alto",
         paragraphs: [
-          "Uma marca forte não é aquela que tem apenas um logotipo bonito no cartão de visitas, mas sim aquela que mantém a **mesma coerência** em todas as suas manifestações: nas artes das redes sociais, nos uniformes, nas apresentações em PDF, nos contratos, no site e nas embalagens.",
-          "Essa repetição visual coerente fixa a marca na memória do público e facilita o reconhecimento imediato, diferenciando a empresa dos concorrentes que trocam de estilo a cada semana.",
+          "Esse efeito pesa ainda mais quando o serviço vendido tem um valor mais alto ou exige mais confiança da parte de quem compra, porque o cliente está adquirindo uma promessa que ainda não pode testar antes de contratar, e qualquer sinal de descuido no material apresentado alimenta a insegurança sobre o cuidado que também vai existir durante a entrega do serviço.",
+          "Em negócios onde a comunicação visual é consistente, profissional e bem cuidada, essa mesma insegurança dá lugar à sensação de estar lidando com alguém que leva o próprio trabalho a sério, o que facilita a decisão de fechar negócio mesmo quando o preço praticado não é o mais baixo entre as opções disponíveis no mercado.",
         ],
       },
       {
-        heading: "Clareza que facilita a tomada de decisão",
+        heading: "Erros comuns que prejudicam essa percepção",
         paragraphs: [
-          "O bom design tem uma função prática indispensável: tornar assuntos complexos fáceis de compreender. Gráficos bem elaborados, tabelas limpas e tópicos organizados ajudam o potencial cliente a entender exatamente o que está incluído no serviço, quais são os prazos e como funcionam as etapas de entrega, eliminando dúvidas que poderiam travar o fechamento da proposta.",
+          "Entre os erros mais comuns que prejudicam essa percepção estão misturar fontes diferentes em materiais distintos da mesma empresa, usar cores que não têm relação nenhuma com a identidade visual já definida, enviar orçamentos em documentos sem nenhuma formatação ou produzir apresentações genéricas a partir de modelos prontos, sem qualquer personalização que lembre a marca em questão.",
+          "Cada um desses detalhes, isoladamente, pode até parecer pequeno diante da qualidade do serviço entregue, mas juntos eles constroem a imagem de um negócio que ainda não organizou sua comunicação visual, e isso custa credibilidade exatamente no momento em que o cliente está decidindo se confia ou não na empresa que tem na frente.",
         ],
       },
       {
-        heading: "Investir na apresentação é investir no próprio faturamento",
+        heading: "Dúvidas comuns sobre o impacto do design gráfico",
         paragraphs: [
-          "Empresas que investem em design estratégico não gastam dinheiro com cosmética supérflua; elas fortalecem seus ativos comerciais. Na Bydo, desenvolvemos identidades visuais e materiais gráficos que valorizam a reputação de quem já presta um ótimo serviço, garantindo que a qualidade percebida pelo cliente corresponda à qualidade real do trabalho entregue.",
+          "Vale também responder a uma dúvida comum, que é se design gráfico realmente influencia nas vendas de um negócio ou se é só um gasto com estética. A resposta é que sim, influencia, porque a decisão de compra é tomada em grande parte pela percepção de confiança que o cliente constrói antes mesmo de negociar valores, e essa percepção nasce visualmente antes de nascer racionalmente.",
+          "Outra pergunta frequente é se vale a pena investir em identidade visual mesmo sendo um negócio pequeno ou que está começando agora, e aqui a resposta também é afirmativa, porque é justamente no início que a empresa mais precisa transmitir solidez para compensar a falta de um histórico extenso no mercado.",
+          "Também é comum surgir a dúvida sobre a diferença entre ter apenas um logotipo e ter uma identidade visual completa, e essa diferença está exatamente na consistência, já que um logotipo isolado não garante que a marca seja reconhecida e lembrada, enquanto uma identidade visual completa organiza cores, tipografia e aplicação em todos os materiais, criando um padrão que o público passa a associar automaticamente àquele negócio.",
+        ],
+      },
+      {
+        heading: "O design gráfico estratégico na prática da Bydo",
+        paragraphs: [
+          "Na Bydo, o trabalho de design gráfico estratégico existe justamente para resolver esse tipo de inconsistência, organizando apresentações, portfólios, orçamentos e materiais institucionais dentro de um padrão visual único, que reforça a identidade da marca em cada contato com o cliente e aumenta a percepção de profissionalismo em toda a presença digital e impressa do negócio.",
         ],
       },
     ],
     relatedService: {
-      label: "Design Gráfico para Empresas",
+      label: "Design Gráfico",
       href: "/servicos/design-grafico",
     },
   },
@@ -549,43 +554,53 @@ export const articles: readonly BlogArticle[] = [
     readingTime: "4 min de leitura",
     image: "/portfolio/revista-dra-leticia.webp",
     imageAlt: "Revista digital e portfólio interativo para prestadores de serviço",
-    introduction: "Quem vende um produto físico tem a vantagem de colocá-lo na mão do cliente: a pessoa toca, experimenta e avalia na hora. Quem presta serviços — seja em saúde, arquitetura, consultoria, engenharia ou estética — vende algo intangível, vende uma promessa de resultado. Por isso, os materiais de apresentação e divulgação são tão fundamentais: eles dão corpo, peso e materialidade àquilo que você faz.",
+    introduction: "Muitos prestadores de serviço têm um trabalho de qualidade, mas não têm como mostrar isso de forma organizada quando o cliente pede pra ver exemplos do que já foi entregue antes, e é justamente nesse momento que um material de divulgação bem construído faz a diferença entre fechar negócio ali mesmo ou deixar o cliente com dúvida sobre a real capacidade da empresa. Portfólios, apresentações comerciais e revistas digitais existem exatamente pra preencher essa lacuna, transformando serviços, diferenciais e resultados em algo fácil de entender, de mostrar e de compartilhar com quem ainda está decidindo se vai contratar.",
     sections: [
       {
-        heading: "Apresentações comerciais e propostas em PDF profissional",
+        heading: "Portfólio organizado como prova visual de capacidade",
         paragraphs: [
-          "Enviar uma proposta digitada diretamente na mensagem do WhatsApp é um dos hábitos que mais desvalorizam o trabalho de um especialista. Uma proposta comercial estruturada em PDF, com capa personalizada, escopo bem definido, cronograma e termos de contratação, transforma uma simples negociação em um documento formal e respeitado.",
-          "O cliente percebe que está lidando com uma empresa sólida, o que diminui objeções e agiliza a aprovação do orçamento.",
+          "Um portfólio profissional organizado é, na prática, a prova visual de que o negócio entrega o que promete, porque reúne os melhores trabalhos já realizados num formato que facilita a comparação entre antes e depois, entre o problema do cliente e a solução entregue. Diferente de mandar fotos soltas pelo WhatsApp ou depender só das publicações do Instagram, um portfólio bem estruturado apresenta cada projeto com contexto, explica o que foi feito e por que aquela solução fez sentido pra aquele cliente específico, o que ajuda quem está avaliando a empresa a enxergar não só o resultado final, mas o raciocínio por trás dele, que normalmente é o que mais pesa na decisão de contratar um prestador de serviço em vez de outro.",
         ],
       },
       {
-        heading: "Revistas digitais e portfólios editoriais para WhatsApp",
+        heading: "Apresentação comercial para conduzir a negociação",
         paragraphs: [
-          "Um dos materiais de maior impacto criados pela Bydo é a **revista portfólio digital**. Trata-se de uma publicação moderna e interativa, diagramada no formato ideal para leitura no smartphone, que reúne a história do profissional, fotos de alta qualidade, explicação dos tratamentos ou serviços e depoimentos de clientes satisfeitos.",
-          "Ela pode ser enviada facilmente com um clique pelo WhatsApp toda vez que um novo contato pergunta \"como funciona o seu trabalho?\", gerando um impacto muito superior a um texto longo e cansativo.",
+          "A apresentação comercial cumpre um papel parecido, mas num momento diferente da negociação, porque ela entra justamente quando o cliente já demonstrou interesse e precisa de um material completo pra entender a proposta, os diferenciais da empresa e o motivo pelo qual vale investir naquele serviço. Uma apresentação bem construída não se limita a listar preços e prazos, ela conta a história do negócio, explica a metodologia de trabalho, mostra depoimentos de quem já contratou e responde às principais dúvidas antes mesmo que o cliente precise perguntar, funcionando como um suporte direto pra quem precisa apresentar a proposta internamente pra um sócio ou gestor que não participou da conversa inicial.",
         ],
       },
       {
-        heading: "Cartões digitais interativos e catálogo de links",
+        heading: "Revistas digitais e formatos editoriais para leitura no celular",
         paragraphs: [
-          "Em vez de enviar vários links soltos, um cartão digital interativo reúne em um único lugar o link direto para o WhatsApp, localização no Google Maps, catálogo de serviços, chave Pix e links das redes sociais. Isso facilita a navegação do cliente e elimina barreiras no primeiro contato.",
+          "Já as revistas digitais e materiais em formato editorial são ideais pra quem quer ir além da apresentação comercial tradicional e criar um material mais completo e aprofundado, que funcione tanto como apresentação da empresa quanto como conteúdo de valor pra quem recebe. Diagramadas no formato ideal pra leitura no smartphone, essas publicações reúnem artigos, estudos de caso, fotos de alta qualidade e explicações detalhadas sobre os serviços, permitindo que o cliente consuma a informação no próprio ritmo dele, sem a pressão de um documento de vendas convencional, e com um nível de acabamento visual que reforça a percepção de autoridade do profissional ou da empresa que enviou o material.",
         ],
       },
       {
-        heading: "Materiais impressos de alto padrão para atendimento presencial",
+        heading: "O papel de cada material no ciclo de venda",
         paragraphs: [
-          "Para profissionais que contam com espaço físico ou consultório, materiais impressos como pastas de entrega de documentos, receituários elegantes, cartões de visita com acabamento especial e folhetos explicativos sobre pós-atendimento completam a experiência com uma sensação tangível de exclusividade.",
+          "Cada um desses materiais tem um momento certo de entrar na conversa com o cliente, e entender essa ordem ajuda a usar cada um com mais eficiência. O portfólio costuma entrar primeiro, logo no início da conversa, quando o cliente ainda está conhecendo o trabalho e quer ver provas de que a empresa já entregou soluções parecidas com o que ele precisa. A apresentação comercial entra logo em seguida, quando a negociação avança e o cliente precisa entender os detalhes da proposta, os diferenciais e as condições de trabalho. E a revista digital ou material editorial pode ser usada tanto como porta de entrada, pra atrair quem ainda está pesquisando sobre o tema, quanto como complemento de negociação pra reforçar a autoridade da empresa antes do fechamento.",
         ],
       },
       {
-        heading: "Apresentar bem é a chave para ser escolhido",
+        heading: "Erros comuns na apresentação de serviços",
         paragraphs: [
-          "Ter competência técnica é a obrigação de qualquer profissional sério; mas saber embalar e comunicar essa competência é o que define quem consegue atrair os melhores clientes e cobrar honorários justos. Os materiais visuais certos garantem que a primeira impressão seja exatamente aquela que você deseja causar.",
+          "O erro mais frequente entre prestadores de serviço é mandar fotos avulsas pelo WhatsApp sem nenhuma explicação sobre o que foi feito em cada projeto, o que obriga o cliente a tentar adivinhar o contexto e quase sempre diminui o impacto do que está sendo mostrado. Outro erro comum é usar propostas em texto simples, sem identidade visual nem cuidado gráfico, que parecem rascunhos em vez de documentos comerciais formais, transmitindo amadorismo mesmo quando o serviço tem excelente qualidade técnica. E um terceiro erro é depender exclusivamente do Instagram como portfólio, esquecendo que o feed mistura posts informativos, bastidores e publicações antigas que dificultam pro cliente encontrar rapidamente exemplos do serviço exato que ele tem interesse em contratar.",
+        ],
+      },
+      {
+        heading: "Dúvidas comuns sobre materiais de apresentação",
+        paragraphs: [
+          "Uma dúvida frequente é se um prestador de serviço que está começando precisa mesmo de um portfólio completo, e a resposta é que mesmo com poucos projetos já entregues, reunir esses trabalhos num documento organizado com contexto e explicação causa uma impressão infinitamente melhor do que não ter nada pra mostrar ou depender de prints soltos de conversas. Outra pergunta comum é se a apresentação comercial precisa ser longa, e a realidade é que materiais objetivos, entre cinco e dez páginas bem diagramadas, costumam funcionar muito melhor do que apresentações extensas que ninguém tem paciência de ler inteira. E há quem pergunte se vale a pena imprimir esses materiais ou focar só no digital, o que depende do formato de atendimento de cada empresa, sendo que formatos digitais em PDF interativo atendem praticamente qualquer situação de venda moderna.",
+        ],
+      },
+      {
+        heading: "Como a Bydo constrói materiais que vendem o serviço",
+        paragraphs: [
+          "Na Bydo, a criação de portfólios, apresentações comerciais e revistas digitais começa sempre pelo entendimento do que o cliente daquele negócio precisa ver pra se sentir seguro antes de contratar. A equipe estrutura o conteúdo de forma estratégica, seleciona os projetos mais relevantes, escreve os textos explicativos com foco em clareza e desenvolve um layout alinhado à identidade visual da empresa, garantindo que o material final seja bonito, fácil de navegar e direto ao ponto. O resultado é um conjunto de materiais que os prestadores de serviço usam com orgulho em todas as negociações e que se conectam com os outros pontos de contato com o cliente, do perfil no Google ao site institucional.",
         ],
       },
     ],
     relatedService: {
-      label: "Design Gráfico para Empresas",
+      label: "Design Gráfico",
       href: "/servicos/design-grafico",
     },
   },
@@ -598,40 +613,36 @@ export const articles: readonly BlogArticle[] = [
     readingTime: "5 min de leitura",
     image: "/portfolio/fachada-digital-bydo.webp",
     imageAlt: "Integração estratégica entre Google, site institucional e redes sociais",
-    introduction: "Observe o seu próprio comportamento quando precisa contratar um serviço importante hoje em dia. Você pode ver uma publicação interessante no Instagram, mas antes de mandar uma mensagem, o que você faz? Abre o Google, pesquisa o nome da empresa, confere as avaliações no mapa e entra no site para checar se as informações são verdadeiras. Se em um canal o telefone for um, no outro for outro, e no site a empresa parecer abandonada, a dúvida aparece imediatamente e você desiste.",
+    introduction: "É comum que uma empresa cuide bem de um canal digital e deixe os outros dois meio soltos, como o perfil no Google atualizado e caprichado enquanto o site está desatualizado, ou o Instagram ativo e cuidado enquanto o Google mal tem informação preenchida, e esse descompasso custa mais caro do que parece, porque o cliente raramente decide só olhando um canal isolado. Antes de fechar negócio, ele costuma pesquisar no Google, dar uma olhada no site e acompanhar um pouco o perfil nas redes sociais, e quando essas três fontes contam histórias diferentes sobre a mesma empresa, a dúvida que nasce costuma ser suficiente pra fazer ele procurar outra opção que pareça mais confiável e mais organizada.",
     sections: [
       {
-        heading: "As três portas de entrada do ecossistema digital",
+        heading: "O caminho que o cliente percorre antes de entrar em contato",
         paragraphs: [
-          "Cada canal cumpre um papel insubstituível na jornada de decisão do cliente:",
-          "O **Perfil da Empresa no Google** atende a intenção imediata de quem já está procurando pela solução na região (\"quem resolve isso perto de mim agora?\"); o **Site Institucional** é a autoridade máxima, a casa própria que organiza todas as informações, detalhes de serviços e garantias oficiais; e as **Redes Sociais** mostram a rotina, a humanidade e a prova de que a empresa está ativa e conectada ao seu público.",
+          "O caminho que o cliente percorre antes de entrar em contato normalmente começa pela busca, já que é no Google que a maioria das pessoas procura por um serviço quando ainda não conhece nenhuma empresa específica pelo nome, e é esse primeiro contato que decide se a empresa vai sequer entrar na lista de opções consideradas. Depois de encontrar o negócio, é comum que o cliente acompanhe o perfil nas redes sociais por um tempo, observando o tipo de conteúdo publicado, a frequência das postagens e a forma como a empresa se comunica, construindo aos poucos uma impressão sobre quem está por trás daquele trabalho. O site entra como a etapa de validação final, o lugar onde o cliente confirma com mais profundidade as informações que já formou nas etapas anteriores, antes de avançar pro contato direto.",
         ],
       },
       {
-        heading: "A consistência das informações básicas (NAP: Nome, Endereço e Telefone)",
+        heading: "O problema de mensagens conflitantes entre canais",
         paragraphs: [
-          "Para o Google e para o consumidor, inconsistências cadastrais são sinais de alerta. O nome da empresa, o endereço completo, o telefone e o horário de funcionamento devem estar rigorosamente idênticos em todos os lugares.",
-          "Quando o Google cruza os dados do perfil com o rodapé do seu site e as informações do perfil do Instagram e encontra perfeita sincronia, o algoritmo aumenta a pontuação de confiança na sua empresa, o que contribui diretamente para melhores posições no mapa local.",
+          "O problema aparece quando cada um desses canais passa uma mensagem diferente sobre a mesma empresa, porque informações divergentes geram desconfiança mesmo quando cada canal, isoladamente, está com boa aparência. Um perfil no Google com horário de funcionamento desatualizado, um site com serviços que não existem mais e um Instagram com um tom de comunicação completamente diferente do que está no site, por exemplo, fazem o cliente se perguntar qual dessas versões realmente representa a empresa, e essa dúvida é suficiente pra travar o avanço rumo ao contato, ainda que o serviço prestado seja excelente.",
         ],
       },
       {
-        heading: "Unidade visual que fortalece a lembrança de marca",
+        heading: "Alinhando informações, identidade visual e tom de voz",
         paragraphs: [
-          "A identidade visual não pode ser diferente a cada canal. O logotipo, a paleta de cores, as tipografias e o estilo de fotos devem seguir o mesmo padrão estético tanto na capa do Google Meu Negócio quanto nos posts do Instagram e nas páginas do seu site.",
-          "Essa coesão cria familiaridade instantânea: quando o cliente pula do anúncio para o perfil e depois para a landing page, ele tem a certeza de que está no lugar certo.",
+          "Organizar esses três canais pra transmitir a mesma confiança passa por alinhar informações básicas, como nome, endereço, telefone e horário de funcionamento, em todos os lugares onde a empresa aparece, mas vai além disso, porque também envolve manter o mesmo tom de voz, a mesma identidade visual e as mesmas mensagens centrais sobre o que o negócio oferece e pra quem oferece. Quando o Google, o site e as redes sociais contam a mesma história, com a mesma cara e o mesmo discurso, o cliente consegue reconhecer a empresa em qualquer um desses pontos de contato, o que reduz drasticamente a sensação de risco na hora de decidir fechar negócio.",
         ],
       },
       {
-        heading: "Caminhos claros que levam ao fechamento no WhatsApp",
+        heading: "Como a coerência fortalece cada canal individualmente",
         paragraphs: [
-          "Os três canais precisam ter rotas de conversão fluidas. No Google, o botão de ligar e a rota no Maps devem estar ativos; no site, os botões flutuantes de WhatsApp devem acompanhar a leitura em todas as páginas; e nas redes sociais, o link da bio deve levar direto para a conversa comercial.",
-          "Quando todos os canais trabalham juntos para conduzir o cliente até o mesmo ponto de contato, a taxa de conversão aumenta consideravelmente.",
+          "Essa coerência entre canais também fortalece cada canal individualmente, porque um perfil no Google bem avaliado reforça a credibilidade do site, um site bem estruturado valida o que foi mostrado nas redes sociais, e um Instagram ativo mantém a empresa presente na lembrança de quem já visitou o site ou encontrou o perfil no Google, criando um ciclo onde cada canal fortalece os outros em vez de funcionar isolado. É justamente por isso que tratar presença digital como um conjunto único, e não como três tarefas separadas, costuma gerar um resultado muito mais consistente do que investir pesado em um canal e deixar os outros à deriva.",
         ],
       },
       {
-        heading: "A estrutura integrada que a Bydo desenvolve",
+        heading: "A presença digital integrada na prática da Bydo",
         paragraphs: [
-          "Na Bydo Marketing, não tratamos o site, o Google e as redes sociais como ilhas isoladas. Construímos uma estrutura digital integrada onde cada ponto de contato reforça o outro, garantindo que onde quer que o cliente encontre a sua empresa, ele sinta a mesma segurança para dar o próximo passo.",
+          "Na Bydo, esse é o raciocínio por trás de cada projeto, já que o trabalho de perfil no Google, site institucional e gestão de redes sociais é pensado em conjunto, com a mesma identidade visual, o mesmo tom de voz e a mesma mensagem central aplicada em todos os canais, justamente pra que o cliente reconheça a mesma empresa confiável em qualquer ponto de contato que ele encontrar primeiro.",
         ],
       },
     ],
