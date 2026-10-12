@@ -128,6 +128,19 @@ test("publishes robots and sitemap with only real canonical routes", async () =>
   assert.doesNotMatch(sitemap, /ng-lojaribeirao/);
 });
 
+test("publishes .htaccess with SPA rules for Hostinger and subfolders", async () => {
+  const htaccessPublic = await readFile(new URL("../public/.htaccess", import.meta.url), "utf8");
+  const htaccessDist = await readFile(new URL("../dist/client/.htaccess", import.meta.url), "utf8");
+
+  for (const content of [htaccessPublic, htaccessDist]) {
+    assert.match(content, /RewriteEngine\s+On/i);
+    assert.match(content, /Options\s+-[^\n]*Indexes/i);
+    assert.match(content, /DirectoryIndex\s+index\.html/i);
+    assert.match(content, /RewriteCond\s+%{REQUEST_FILENAME}\s+-d/i);
+    assert.match(content, /RewriteCond\s+%{REQUEST_FILENAME}\/index\.html\s+!-f/i);
+    assert.match(content, /index\.html/i);
+  }
+});
 test("returns a custom, non-indexable 404 page", async () => {
   const response = await render("/pagina-que-nao-existe");
   assert.equal(response.status, 404);
