@@ -72,9 +72,18 @@ export default function Page() {
     </section>
 
     <section className="googlelp-why">
-      <div className="googlelp-why-copy"><h2>A decisão do seu cliente começa na pesquisa do Google, antes mesmo de ele chegar até você.</h2><p>A pesquisa no Google costuma acontecer quando uma necessidade já existe, pois a pessoa quer descobrir quem atende na região, entender as opções disponíveis e decidir com quem vale a pena conversar, e é justamente nesse momento que o perfil da sua empresa entra na disputa antes mesmo do primeiro contato acontecer.</p><p>O Perfil da Empresa reúne as informações que sustentam essa escolha, porque quando localização, horários, serviços, fotos e avaliações fazem sentido em conjunto, o cliente encontra menos dúvidas para confirmar que aquele é o negócio certo para procurar.</p><p>Quem pesquisa um serviço perto de mim no Google Maps costuma conferir esses mesmos pontos antes de visitar o espaço ou mandar a primeira mensagem, de modo que boa parte da decisão já está tomada quando o cliente finalmente chega até a sua porta.</p><p>Quando o perfil está incompleto ou desatualizado, essa dúvida aparece justamente no momento em que o cliente já estava pronto para agir, então organizar essas informações com antecedência ajuda sua empresa a participar de uma decisão que já está em andamento, tanto na Pesquisa Google quanto no Google Maps.</p><a className="button" href={whatsapp}>Quero preparar minha empresa</a></div>
+      <div className="googlelp-why-header">
+        <h2>A decisão do seu cliente começa na pesquisa do Google, antes mesmo de ele chegar até você.</h2>
+      </div>
       <div className="googlelp-why-compare">
         <Picture className="googlelp-why-single-image" src="/google-profile/serralheria-perto-de-mim.webp" alt="Cliente pesquisando serralheria perto de mim no Google, com o perfil da empresa aparecendo na busca e no Maps" />
+      </div>
+      <div className="googlelp-why-copy">
+        <p>A pesquisa no Google costuma acontecer quando uma necessidade já existe, pois a pessoa quer descobrir quem atende na região, entender as opções disponíveis e decidir com quem vale a pena conversar, e é justamente nesse momento que o perfil da sua empresa entra na disputa antes mesmo do primeiro contato acontecer.</p>
+        <p>O Perfil da Empresa reúne as informações que sustentam essa escolha, porque quando localização, horários, serviços, fotos e avaliações fazem sentido em conjunto, o cliente encontra menos dúvidas para confirmar que aquele é o negócio certo para procurar.</p>
+        <p>Quem pesquisa um serviço perto de mim no Google Maps costuma conferir esses mesmos pontos antes de visitar o espaço ou mandar a primeira mensagem, de modo que boa parte da decisão já está tomada quando o cliente finalmente chega até a sua porta.</p>
+        <p>Quando o perfil está incompleto ou desatualizado, essa dúvida aparece justamente no momento em que o cliente já estava pronto para agir, então organizar essas informações com antecedência ajuda sua empresa a participar de uma decisão que já está em andamento, tanto na Pesquisa Google quanto no Google Maps.</p>
+        <a className="button" href={whatsapp}>Quero preparar minha empresa</a>
       </div>
       <div className="googlelp-why-flow" aria-label="O papel do Perfil da Empresa na decisão local"><article><strong>Ser encontrada</strong><p>A empresa aparece quando alguém pesquisa uma solução na região.</p></article><article><strong>Ser compreendida</strong><p>O cliente identifica o que ela oferece e como pode ser atendido.</p></article><article><strong>Ser escolhida</strong><p>Informações coerentes ajudam a confirmar confiança e avançar até o contato.</p></article></div>
     </section>

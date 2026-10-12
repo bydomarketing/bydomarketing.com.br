@@ -208,7 +208,7 @@ export const articles: readonly BlogArticle[] = [
     category: "Sites",
     publishedAt: "2026-09-26",
     readingTime: "5 min de leitura",
-    image: "/home/site-dra-claudia.webp",
+    image: "/portfolio/site-dra-claudia.webp",
     imageAlt: "Site institucional profissional representando uma presença digital estruturada",
     introduction: "Um eletricista com anos de experiência e uma agenda cheia de indicações um dia percebeu que estava perdendo orçamentos para concorrentes mais novos e menos experientes do que ele. O motivo não era preço nem qualidade, era que, quando o cliente pesquisava o nome dele no Google antes de fechar, não encontrava nada além de um perfil de rede social parado, enquanto o concorrente aparecia com um site organizado. Esse tipo de situação se repete o tempo todo, e existem sinais claros de que já passou da hora de sair do improviso.",
     sections: [
@@ -255,7 +255,7 @@ export const articles: readonly BlogArticle[] = [
     category: "Sites",
     publishedAt: "2026-09-26",
     readingTime: "5 min de leitura",
-    image: "/home/site-dra-leticia.webp",
+    image: "/portfolio/site-dra-leticia.webp",
     imageAlt: "Site institucional exibindo a apresentação completa de uma empresa",
     introduction: "Site institucional é o site que apresenta a empresa de forma completa, reunindo quem é o negócio, o que ele oferece, como funciona o atendimento e por que vale a pena confiar nele, em vez de focar em vender um produto específico dentro de uma loja virtual. Diferente de uma landing page feita para uma campanha pontual, o site institucional funciona como a casa digital permanente do negócio, o lugar para onde qualquer outro canal pode direcionar o cliente, seja um anúncio, uma indicação, uma rede social ou o próprio Google Meu Negócio.",
     sections: [
