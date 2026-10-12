@@ -1,0 +1,26 @@
+# Mantém o ramo "deploy" sempre igual à pasta producao/ do ramo main.
+# A Hostinger publica o ramo "deploy" direto na public_html, então só o
+# site pronto (index.html, .htaccess, css, js...) vai para a hospedagem,
+# nunca o código-fonte.
+name: Atualizar ramo deploy
+
+on:
+  push:
+    branches: [main]
+    paths: ["producao/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Separar producao/ no ramo deploy
+        run: |
+          git subtree split --prefix=producao -b deploy
+          git push origin deploy --force
