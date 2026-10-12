@@ -15,7 +15,7 @@ DirectoryIndex index.html
 
   # 3. Força HTTPS se disponível
   RewriteCond %{HTTPS} off
-  RewriteCond %{HTTP_HOST} ^(www.)?bydomarketing.com.br$ [NC]
+  RewriteCond %{HTTP_HOST} ^(www\\.)?bydomarketing\\.com\\.br$ [NC]
   RewriteRule ^(.*)$ https://www.bydomarketing.com.br/$1 [R=301,L]
 
   # 4. Arquivos físicos existentes: serve diretamente (.css, .js, .webp, .svg, etc.)
