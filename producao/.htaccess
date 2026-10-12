@@ -1,0 +1,52 @@
+# ==============================================================================
+# Single Page Application (SPA) - Configuração Apache / LiteSpeed (.htaccess)
+# Otimizado para Vite / React na Hostinger
+# ==============================================================================
+
+# 1. Impede a listagem do conteúdo de diretórios (evita erro 403 Forbidden)
+# e desativa MultiViews para evitar conflitos na resolução de URLs limpas
+Options -Indexes -MultiViews
+
+# 2. Define o arquivo padrão para resolução de diretórios
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 3. Arquivos físicos existentes: serve diretamente (.js, .css, imagens, robots.txt, sitemap.xml, etc.)
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  # 4. Diretórios físicos que possuam seu próprio index.html: serve diretamente
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^ - [L]
+
+  # 5. Diretórios físicos SEM index.html (ex: pasta física /blog/ ou /servicos/ gerada pelo build):
+  # Redireciona internamente para index.html para que o Vite/React Router assuma o controle da rota.
+  # Isso impede categoricamente o erro 403 Forbidden do Apache na Hostinger quando um usuário
+  # acessa ou atualiza (F5) uma rota que corresponde a um diretório físico no disco.
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html !-f
+  RewriteRule ^ index.html [L]
+
+  # 6. Páginas HTML estáticas pré-renderizadas sem a extensão .html na URL (Clean URLs)
+  # Exemplo: /blog -> blog.html, /sobre -> sobre.html, /blog/slug -> /blog/slug.html
+  RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+  RewriteRule ^(.+?)/?$ $1.html [L]
+
+  # 7. Fallback SPA: Qualquer rota inexistente ou refresh (F5) em rotas virtuais é direcionado para index.html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# ==============================================================================
+# Cabeçalhos de Segurança e Boas Práticas
+# ==============================================================================
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
